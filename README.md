@@ -25,6 +25,9 @@ Ensure that you have the following installed:
 - BeautifulSoup
 - SentenceTransformer
 - Qdrant
+- numpy
+- tqdm
+- pandas
 
 You can install these packages with pip:
 
