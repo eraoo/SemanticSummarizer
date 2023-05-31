@@ -37,6 +37,6 @@ pip install flask beautifulsoup4 sentence-transformers qdrant
 1. Clone the repository:
 
    ```bash
-   git clone <repo_url>
-   cd <repo_name>
+   git clone https://github.com/eraoo/SemanticSummarizer.git
+   cd SemanticSummarizer
    ```
