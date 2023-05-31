@@ -16,7 +16,7 @@ The repository contains Python scripts for data processing, creating embeddings,
 
 ## Prerequisites
 
-Before using the scripts, make sure to download the Project CodeNet dataset from [here](link_to_dataset) and store it in a directory named `data` at the root of the project repository.
+Before using the scripts, make sure to download the Project CodeNet dataset from [here](https://developer.ibm.com/exchanges/data/all/project-codenet/) and store it in a directory named `data` at the root of the project repository.
 
 Ensure that you have the following installed:
 
