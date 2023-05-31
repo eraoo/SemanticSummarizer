@@ -1,7 +1,7 @@
 # SemanticSummarizer
 A course project leveraging sentence transformers and large language models to automate code summarization tasks. The project aims to enhance code comprehension by creating meaningful and context-rich summaries from a diverse collection of code examples.
 
-This project aims to leverage machine learning techniques to provide automated code summarization, generating concise and informative code summaries from the IBM's Project CodeNet dataset.
+This project aims to leverage machine learning techniques to provide automated code summarization, generating concise and informative code summaries using the IBM's Project CodeNet dataset.
 
 ## Repository Structure
 
