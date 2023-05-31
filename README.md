@@ -29,7 +29,8 @@ Ensure that you have the following installed:
 You can install these packages with pip:
 
 ```bash
-pip install flask beautifulsoup4 sentence-transformers qdrant
+pip install numpy tqdm sentence-transformers flask qdrant qdrant-client beautifulsoup4 pandas
+
 ```
 
 ## How to Use this Repository
@@ -40,3 +41,47 @@ pip install flask beautifulsoup4 sentence-transformers qdrant
    git clone https://github.com/eraoo/SemanticSummarizer.git
    cd SemanticSummarizer
    ```
+
+
+
+2. Download and store the CodeNet dataset:
+
+Download the dataset from the link provided in the Prerequisites section.
+Once downloaded, extract the contents of the zip file and place them in a directory named data.
+Create JSON files for each language:
+
+```bash
+python create_json_for_each_language.py
+```
+
+4. Create embeddings for code submissions:
+```bash
+python create_embeddings_large_files.py
+```
+
+5. Filter out non-accepted submissions:
+```bash
+python only_accepted.py
+```
+
+6. Compute average embeddings:
+```bash
+python average_embeddings.py
+```
+
+7. Insert data into the Qdrant server:
+```bash
+python insert_qdrant.py
+```
+
+8. Launch the Flask application:
+```bash
+python flask_web_interface.py
+```
+
+Then, open a web browser and navigate to http://localhost:5000 to use the application.
+
+Remember, each step is dependent on the previous ones, so ensure you run the scripts in the order mentioned above.
+
+## Contributing
+We welcome contributions to this project! Please feel free to submit issues for bug reporting or enhancements.
