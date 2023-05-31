@@ -49,9 +49,9 @@ cd SemanticSummarizer
 
 2. Download and store the CodeNet dataset:
 
-    Download the dataset from the link provided in the Prerequisites section.
-    Once downloaded, extract the contents of the zip file and place them in a directory named data.
-    Create JSON files for each language:
+Download the dataset from the link provided in the Prerequisites section.
+Once downloaded, extract the contents of the zip file and place them in a directory named data.
+Create JSON files for each language:
 
 ```bash
 python create_json_for_each_language.py
